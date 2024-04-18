@@ -1,69 +1,57 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
+
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Academia U.A.</title>
-    <link rel="stylesheet" href="Styles/Style.css">
+    <title>Academia UA</title>
+    <link rel="stylesheet" href="index.css">
 </head>
+
 <body>
     <header>
-        <div class="container">
-            <img src="logo.png" alt="Logo de Academia U.A." class="logo">
-            <h1>Academia U.A.</h1>
-        </div>
+        <nav>
+            <img onclick="window.location.href='index.html'" src="imagenes/logo.png" class="logo">
+            <button onclick="window.location.href='conocenos.html'">Conocenos</button>
+            <button onclick="window.location.href='programas.html'">Programas académicos</button>
+            <button onclick="window.location.href='admision.html'">Admisión</button>
+        </nav>
     </header>
-    
-    <nav>
-        <ul>
-            <li><a href="#">Inicio</a></li>
-            <li><a href="#">Clases</a></li>
-            <li><a href="#">Proyectos Especiales</a></li>
-            <li><a href="#">Equipo</a></li>
-        </ul>
-    </nav>
-    <img class="iYuuei" src="Yuuei_Building.png">
-    <main>
-        <section class="programas">
-            <h2>Clases Disponibles:</h2>
-            <br>
-            <div class="programa">
-                <h3>Fundamentos de Quirk</h3>
-                <img class="iQuirk" src="Quirk.png" alt="Fundamentos de Quirk">
-                <p>¡Aprende a controlar tu Quirk y potenciar tus habilidades!</p>
-            </div>
-            <br>
-            <div class="programa">
-                <h3>Entrenamiento Físico</h3>
-                <img class="iFisico" src="fisico.png" alt="Entrenamiento Físico">
-                <p>¡Mejora tu condición física para ser un héroe de élite!</p>
-            </div>
-        </section>
-        <section class="proyectos">
-            <h2>Proyectos Especiales:</h2>
-            <br>
-            <div class="proyecto">
-                <h3>Rescate en la Ciudad</h3>
-                <img class="iRescate" src="rescate.png" alt="Rescate en la Ciudad">
-                <p>¡Participa en operaciones de rescate y ayuda a salvar vidas!</p>
-            </div>
-            <br>
-            <div class="proyecto">
-                <h3>Simulacro de Villanos</h3>
-                <img class="iVillanos" src="villanos.png" alt="Simulacro de Villanos">
-                <p>¡Enfréntate a simulacros de combate contra villanos!</p>
-            </div>
-        </section>
-    </main>
 
-    <div class="video">
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/7As3wJotKcg?si=Ew0qGZeQ9f7Z6IRA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-        <p><a href="https://youtu.be/7As3wJotKcg">Ver en YouTube</a>
-    </div>
+    <section class="img-text">
+        <div class="text">
+            <p class="titulo">Academia U.A</p>
+            <p class="descripcion">Donde los estudiantes aprenden y entrenan para convertirse en Héroes</p>
+        </div>
+        <img src="imagenes/Yuuei_Building.png" alt="Academia-UA">
+        <div class="capa-oscura"></div>
+    </section>
 
-    <footer>
-        <p>&copy; 2021 Academia U.A. - My Hero Academia</p>
+    <footer class="footer">
+        <div class="footer-colum">
+            <p>Contactanos</p>
+            <p>Correo: contacto@ua.jp</p>
+            <img class="footer-logo" src="imagenes/logo.png">
+        </div>
+        <div class="footer-colum">
+            <p>Conmutador: 08-6052-6876</p>
+        </div>
+        <div class="footer-colum">
+            <p>Redes Sociales:</p>
+            <p>
+                <a href="https://www.facebook.com">
+                    <img src="imagenes/facebook.png" alt="Facebook">
+                </a>
+            </p>
+            <p>
+                <a href="https://www.instagram.com">
+                    <img src="imagenes/instagram.png" alt="instagram">
+                </a>
+            </p>
+        </div>
     </footer>
+
+    <script src="scripts.js"></script>
 </body>
+
 </html>

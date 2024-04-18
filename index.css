@@ -1,0 +1,119 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #1A2865;
+  }
+  
+  header {
+    background-color: #1A2865;
+    color: #fff;
+    text-align: center;
+    padding: 1rem 0;
+    position: fixed;
+    width: 100%;
+    z-index: 1000; /* Establece una capa superior para la barra de navegación */
+  }
+  
+  nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: stretch;
+    padding: 0 2rem;
+  }
+  
+  .logo {
+    flex: 0 0 auto;
+    height: 50px;
+    padding: 0 1rem;
+    color: #fff;
+    text-decoration: none; /* Para eliminar la decoración de enlace */
+    cursor: pointer; /* Cambiar el estilo del cursor a apuntador */
+  }
+  
+  button {
+    flex: 1; /* Rellena completamente el espacio restante */
+    min-width: 100px; /* Tamaño mínimo de los botones */
+    margin: 0 1rem;
+    padding: 0.5rem 0;
+    border: none;
+    border-radius: 5px;
+    background-color: #FEB81C;
+    color: #fff;
+    font-size: 18px;
+    cursor: pointer;
+  }
+  
+  .actividad {
+    width: 30%;
+    margin: 1rem;
+    padding: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    text-align: center;
+  }
+
+  .img-text {
+    position: relative;
+  }
+  
+  .text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: #fff;
+    z-index: 10; /* Para estar por encima de la imagen */
+  }
+
+  .titulo{
+    font-size: 300%;
+  }
+
+  .descripcion{
+    font-size: 125%;
+  }
+  
+  .img-text img {
+    width: 100%;
+    display: block;
+  }
+
+  .contenido {
+    margin-top: 100px; /* Margen superior para el contenido principal */
+    margin-bottom: 50px;
+  }
+
+  .capa-oscura {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); /* Fondo negro semitransparente */
+  }
+  
+  .footer {
+    background-color: #1A2865;
+    color: #fff;
+    text-align: center;
+    padding: 1rem 0;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+  
+  .footer-column {
+    flex: 1; /* Distribuye el espacio igualmente entre las columnas */
+    text-align: center;
+    margin: 0 10px; /* Margen entre las columnas */
+  }
+
+  .footer-logo{
+    width: 100px;
+  }
+  
+  .footer-column p {
+    margin: 5px 0;
+  }
